@@ -5,9 +5,9 @@ const Player = ({ player }) => {
     const {image, name, country, role, battingStyle, ballingStyle, rating, price} = player;
     console.log(player);
     return (
-        <div className="card bg-base-100 w-96 shadow-sm p-4">
+        <div className="card bg-base-100 shadow-sm p-4">
             <figure>
-                <img className="rounded-2xl" src={image} alt="player image" />
+                <img className="w-full h-[200px] rounded-2xl" src={image} alt="player image" />
             </figure>
             <div className="mt-6">
                 <div className="flex gap-3 mb-[18px]">
