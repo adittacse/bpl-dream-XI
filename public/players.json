@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co.com/wXCTQDT/Shakib-Al-Hasan.jpg",
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "role": "All-rounder",
+        "rating": 94,
+        "battingStyle": "Left-hand bat",
+        "ballingStyle": "Left-arm orthodox spin",
+        "price": "1.50 crore"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co.com/3mQhC6VC/Tamim-Iqbal.webp",
+        "name": "Tamim Iqbal",
+        "country": "Bangladesh",
+        "role": "Batsman",
+        "rating": 88,
+        "battingStyle": "Left-hand bat",
+        "ballingStyle": "Right-arm offbreak",
+        "price": "1.10 crore"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co.com/5WdWhJwg/Mushfiqur-Rahim.jpg",
+        "name": "Mushfiqur Rahim",
+        "country": "Bangladesh",
+        "role": "Wicket-keeper",
+        "rating": 90,
+        "battingStyle": "Right-hand bat",
+        "ballingStyle": "—",
+        "price": "1.20 crore"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co.com/hRvCcrTh/Litton-Das.webp",
+        "name": "Litton Das",
+        "country": "Bangladesh",
+        "role": "Wicket-keeper",
+        "rating": 86,
+        "battingStyle": "Right-hand bat",
+        "ballingStyle": "—",
+        "price": "95 lakh"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co.com/wqC1Hs6/Mahmudullah-Riyad.jpg",
+        "name": "Mahmudullah Riyad",
+        "country": "Bangladesh",
+        "role": "All-rounder",
+        "rating": 84,
+        "battingStyle": "Right-hand bat",
+        "ballingStyle": "Right-arm offbreak",
+        "price": "90 lakh"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co.com/5xY7MZTd/Mustafizur-Rahman.webp",
+        "name": "Mustafizur Rahman",
+        "country": "Bangladesh",
+        "role": "Bowler",
+        "rating": 91,
+        "battingStyle": "Left-hand bat",
+        "ballingStyle": "Left-arm fast-medium",
+        "price": "1.30 crore"
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co.com/My8XkVMp/Taskin-Ahmed.jpg",
+        "name": "Taskin Ahmed",
+        "country": "Bangladesh",
+        "role": "Bowler",
+        "rating": 87,
+        "battingStyle": "Right-hand bat",
+        "ballingStyle": "Right-arm fast",
+        "price": "1.00 crore"
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co.com/Q7SJswkX/Najmul-Hossain-Shanto.jpg",
+        "name": "Najmul Hossain Shanto",
+        "country": "Bangladesh",
+        "role": "Batsman",
+        "rating": 85,
+        "battingStyle": "Left-hand bat",
+        "ballingStyle": "Right-arm offbreak",
+        "price": "80 lakh"
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co.com/3yLK6jRV/Soumya-Sarkar.jpg",
+        "name": "Soumya Sarkar",
+        "country": "Bangladesh",
+        "role": "All-rounder",
+        "rating": 80,
+        "battingStyle": "Left-hand bat",
+        "ballingStyle": "Right-arm medium-fast",
+        "price": "70 lakh"
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co.com/zVDZJ2zL/Mehidy-Hasan-Miraz.jpg",
+        "name": "Mehidy Hasan Miraz",
+        "country": "Bangladesh",
+        "role": "All-rounder",
+        "rating": 83,
+        "battingStyle": "Right-hand bat",
+        "ballingStyle": "Right-arm offbreak",
+        "price": "85 lakh"
+    },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co.com/pjYfpNPQ/Andre-Russell.png",
+        "name": "Andre Russell",
+        "country": "West Indies",
+        "role": "All-rounder",
+        "rating": 95,
+        "battingStyle": "Right-hand bat",
+        "ballingStyle": "Right-arm fast",
+        "price": "2.20 crore"
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co.com/VYsfK26D/Sunil-Narine.webp",
+        "name": "Sunil Narine",
+        "country": "West Indies",
+        "role": "All-rounder",
+        "rating": 92,
+        "battingStyle": "Left-hand bat",
+        "ballingStyle": "Right-arm offbreak / mystery spin",
+        "price": "1.90 crore"
+    },
+    {
+        "id": 13,
+        "image": "https://i.ibb.co.com/TMXtNjbD/Kieron-Pollard.webp",
+        "name": "Kieron Pollard",
+        "country": "West Indies",
+        "role": "All-rounder",
+        "rating": 89,
+        "battingStyle": "Right-hand bat",
+        "ballingStyle": "Right-arm medium-fast",
+        "price": "1.60 crore"
+    },
+    {
+        "id": 14,
+        "image": "https://i.ibb.co.com/rf3yjCxc/Hazratullah-Zazai.webp",
+        "name": "Hazratullah Zazai",
+        "country": "Afghanistan",
+        "role": "Batsman",
+        "rating": 82,
+        "battingStyle": "Left-hand bat",
+        "ballingStyle": "Right-arm offbreak",
+        "price": "75 lakh"
+    }
+]
