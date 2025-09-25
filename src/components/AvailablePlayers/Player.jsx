@@ -1,6 +1,7 @@
 import userIcon from "../../assets/user.png";
 import flagIcon from "../../assets/flag.png";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const Player = ({ player, purchasedPlayers, setPurchasedPlayers, availableBalance, setAvailableBalance }) => {
     const [isSelected, setIsSelected] = useState(false);
@@ -9,7 +10,11 @@ const Player = ({ player, purchasedPlayers, setPurchasedPlayers, availableBalanc
     const handleSelected = (price) => {
         const playerPrice = parseFloat(price.split("crore").join("").split("lakh").join(""));
         if (availableBalance < playerPrice) {
-            alert("Not enough coins");
+            toast("Not enough coins!");
+            return;
+        }
+        if (purchasedPlayers.length === 6) {
+            toast("You can select players more than 6");
             return;
         }
         setIsSelected(true);
