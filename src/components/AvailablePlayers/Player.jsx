@@ -1,9 +1,21 @@
 import userIcon from "../../assets/user.png";
 import flagIcon from "../../assets/flag.png";
+import { useState } from "react";
 
-const Player = ({ player }) => {
+const Player = ({ player, availableBalance, setAvailableBalance }) => {
+    const [isSelected, setIsSelected] = useState(false);
     const {image, name, country, role, battingStyle, ballingStyle, rating, price} = player;
-    console.log(player);
+
+    const handleSelected = (price) => {
+        const playerPrice = parseInt(price.split("crore").join("").split("lakh").join(""));
+        if (availableBalance < playerPrice) {
+            alert("Not enough coins");
+            return;
+        }
+        setIsSelected(true);
+        setAvailableBalance(availableBalance - playerPrice);
+    }
+    
     return (
         <div className="card bg-base-100 shadow-sm p-4">
             <figure>
@@ -30,7 +42,7 @@ const Player = ({ player }) => {
                     </div>
                     <div className="flex items-center justify-between">
                         <p className="font-semibold">Price: ${price}</p>
-                        <button className="btn border-[#13131310] px-4 py-[9px]">Choose Player</button>
+                        <button disabled={isSelected} onClick={() => handleSelected(price)} className="btn border-[#13131310] px-4 py-[9px]">{isSelected ===true ? "Selected" : "Choose Player"}</button>
                     </div>
                 </div>
             </div>
