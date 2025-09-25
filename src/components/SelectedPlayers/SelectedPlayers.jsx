@@ -1,9 +1,14 @@
-import React from 'react';
+import SelectedPlayer from "./SelectedPlayer";
 
-const SelectedPlayers = () => {
+const SelectedPlayers = ({ purchasedPlayers, removePlayer }) => {
     return (
         <div className="max-w-[1200px] mx-auto">
-            Selected Players
+            {
+                purchasedPlayers.map(player => <SelectedPlayer key={player.id} 
+                                                    removePlayer={removePlayer}
+                                                    player={player}>
+                                                </SelectedPlayer>)
+            }
         </div>
     );
 };

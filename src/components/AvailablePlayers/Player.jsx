@@ -2,18 +2,19 @@ import userIcon from "../../assets/user.png";
 import flagIcon from "../../assets/flag.png";
 import { useState } from "react";
 
-const Player = ({ player, availableBalance, setAvailableBalance }) => {
+const Player = ({ player, purchasedPlayers, setPurchasedPlayers, availableBalance, setAvailableBalance }) => {
     const [isSelected, setIsSelected] = useState(false);
     const {image, name, country, role, battingStyle, ballingStyle, rating, price} = player;
 
     const handleSelected = (price) => {
-        const playerPrice = parseInt(price.split("crore").join("").split("lakh").join(""));
+        const playerPrice = parseFloat(price.split("crore").join("").split("lakh").join(""));
         if (availableBalance < playerPrice) {
             alert("Not enough coins");
             return;
         }
         setIsSelected(true);
         setAvailableBalance(availableBalance - playerPrice);
+        setPurchasedPlayers([...purchasedPlayers, player]);
     }
     
     return (
