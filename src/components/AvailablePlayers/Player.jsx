@@ -14,9 +14,10 @@ const Player = ({ player, purchasedPlayers, setPurchasedPlayers, availableBalanc
             return;
         }
         if (purchasedPlayers.length === 6) {
-            toast("You can select players more than 6");
+            toast("You can't select players more than 6");
             return;
         }
+        toast("Player Purchased...");
         setIsSelected(true);
         setAvailableBalance(availableBalance - playerPrice);
         setPurchasedPlayers([...purchasedPlayers, player]);
